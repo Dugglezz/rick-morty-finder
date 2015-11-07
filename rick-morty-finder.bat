@@ -1,7 +1,9 @@
-@ECHO off
+ @ECHO off
+ TITLE Rick and Morty Episode Finder
  :start
  cls
  ECHO.
+ ECHO Rick and Morty
  ECHO Series 1
  ECHO 1.Pilot
  ECHO 2.Lawnmower Dog
@@ -30,7 +32,7 @@
  set choice=
  set /p choice=Enter episode number: 
  if not '%choice%'=='' set choice=%choice:~0,1%
- #Series1
+ REM Series 1
  if '%choice%'=='1'  start "" https://2.bp.blogspot.com/NYCc3lH3sreUcpEq7PR1lyF9BK6zpeb8ZNTCyzfeiKQ=m22
  if '%choice%'=='2'  start "" https://2.bp.blogspot.com/KwMK9oyCvUcQ9Iu2rR6gJIwziSG_hH842islmj4GG1Q=m22
  if '%choice%'=='3'  start "" https://2.bp.blogspot.com/XnQuPRkCM12vrivkrB9_Ppj5F9_oGKEDRZf4BqzAE3o=m22
@@ -42,7 +44,7 @@
  if '%choice%'=='9'  start "" https://2.bp.blogspot.com/KX0gBB0myXJ7M3hIyk7oO5okVTorR_jr12PiS797dbI=m22
  if '%choice%'=='10' start "" https://2.bp.blogspot.com/2doe3VsNeLt5B6SWOVDUNi0Hsn6RCAMcqOQnbc2LFuk=m22
  if '%choice%'=='11' start "" https://2.bp.blogspot.com/Qigw6xs_V8Ncf9OimVi0PmT7K3BTO9E_aYIGu2BzGN4=m22
- #Series2
+ REM Series 2
  if '%choice%'=='12' start "" https://2.bp.blogspot.com/wXepRZf7sDhxsvpU35BakoZXZ8WkOxAoy-ESbpYe3h0=m22
  if '%choice%'=='13' start "" https://2.bp.blogspot.com/7sNaePevabsqkDCBvUmwn_8hyeqK3cBN3_G-GLfcgFkl=m22
  if '%choice%'=='14' start "" https://2.bp.blogspot.com/66T5XpSGLWnpikGH4TuaDqI8RnVY8Mom63sS04suYA=m22
