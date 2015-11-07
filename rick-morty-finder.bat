@@ -31,7 +31,6 @@
  ECHO.
  set choice=
  set /p choice=Enter episode number: 
- if not '%choice%'=='' set choice=%choice:~0,1%
  REM Series 1
  if '%choice%'=='1'  start "" https://2.bp.blogspot.com/NYCc3lH3sreUcpEq7PR1lyF9BK6zpeb8ZNTCyzfeiKQ=m22
  if '%choice%'=='2'  start "" https://2.bp.blogspot.com/KwMK9oyCvUcQ9Iu2rR6gJIwziSG_hH842islmj4GG1Q=m22
@@ -55,8 +54,7 @@
  if '%choice%'=='19' start "" https://2.bp.blogspot.com/zjm_-GH3R5y4yVkqt7u654laBLoehMnA286ZE_OXqIGR=m22
  if '%choice%'=='20' start "" https://2.bp.blogspot.com/1D4_YDI7KdWQKcW27HconAJejfdAUJsezx96Td__YeQM=m22
  if '%choice%'=='21' start "" https://2.bp.blogspot.com/FXxt4S0U9Gk8zqM_NhjoIyZziHzYQvr2XD8oCNWlGbRR=m22
- ECHO "%choice%" is not valid, try again
- ECHO.
+ PAUSE
  goto start
  :end
  pause 
